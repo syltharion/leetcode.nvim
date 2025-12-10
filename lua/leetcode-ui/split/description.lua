@@ -40,7 +40,7 @@ function Description:mount()
         matchpairs = "",
         swapfile = false,
         buftype = "nofile",
-        filetype = config.name,
+        filetype = "markdown",
         synmaxcol = 0,
     })
     ui_utils.win_set_opts(self.winid, {
